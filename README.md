@@ -34,7 +34,7 @@ In Ghana, the Akan people have a unique tradition of naming children based on th
 This project was built as part of a JavaScript practice exercise to enhance DOM manipulation skills and user input handling.
 
 🎥 Live Demo
-🔗 Click here to try the Akan Name Generator (Replace with actual link if hosted online)
+🔗 Click here to try the Akan Name Generator (https://mathewkorir538.github.io/Akan-name-generator/)
 
 🚀 Features
 ✅ Simple and user-friendly interface
