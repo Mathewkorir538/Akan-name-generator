@@ -48,3 +48,19 @@ document.getElementById("akanForm").addEventListener("submit", function (e) {
   document.getElementById("result").innerText =
     `You were born on a ${days[actualDay]}. Your Akan name is ${name}.`;
 });
+
+
+document.getElementById("inquiryForm").addEventListener("submit", function (e) {
+  e.preventDefault(); 
+
+  
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
+
+  
+  alert(`Thank you, ${name}! Your inquiry has been received. We will contact you at ${email}.`);
+
+  
+  document.getElementById("inquiryForm").reset();
+});
