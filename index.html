@@ -4,32 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akan Name Generator</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
   <div class="container">
     <h1>Akan Name Generator</h1>
-    <p>Discover your Akan name based on the day of the week you were born!</p>
+    <p>Enter your details below to find your Akan name:</p>
+    
+    
     <form id="akanForm">
       <label for="day">Day of Birth:</label>
-      <input type="number" id="day" placeholder="Enter day (1-31)" required>
-
+      <input type="number" id="day" name="day" placeholder="Enter day (1–31)" required>
+      
       <label for="month">Month of Birth:</label>
-      <input type="number" id="month" placeholder="Enter month (1-12)" required>
-
+      <input type="number" id="month" name="month" placeholder="Enter month (1–12)" required>
+      
       <label for="year">Year of Birth:</label>
-      <input type="number" id="year" placeholder="Enter year (e.g., 1990)" required>
-
-      <label>Gender:</label>
+      <input type="number" id="year" name="year" placeholder="Enter year (e.g., 1990)" required>
+      
+      <label for="gender">Gender:</label>
       <div class="gender-options">
-        <label><input type="radio" name="gender" value="male"> Male</label>
-        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label>
+          <input type="radio" name="gender" value="male"> Male
+        </label>
+        <label>
+          <input type="radio" name="gender" value="female"> Female
+        </label>
       </div>
-
-      <button type="submit">Generate Akan Name</button>
+      
+      <button type="submit">Generate Name</button>
     </form>
-    <div class="result" id="result"></div>
+    
+    
+    <div class="result" id="result">
+      
+    </div>
   </div>
+  
+  
+  <footer>
+    <p>&copy; 2025 Akan Name Generator. All rights reserved.</p>
+  </footer>
+
   <script src="index.js"></script>
 </body>
 </html>
